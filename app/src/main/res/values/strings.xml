@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MpisTask01</string>
+    <string name="likeBtn">Like</string>
+    <string name="dislikeBtn">Dislike</string>
+    <string name="image">Image</string>
+    <string name="downloadBtn">Download</string>
+    <string name="showInWeb">Open in browser</string>
+    <string name="search_image">Search Image</string>
+    <string name="search">Search!</string>
+</resources>
