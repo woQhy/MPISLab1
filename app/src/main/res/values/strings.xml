@@ -7,4 +7,6 @@
     <string name="showInWeb">Open in browser</string>
     <string name="search_image">Search Image</string>
     <string name="search">Search!</string>
+    <string name="author">Горкавчук Никита Михайлович</string>
+    <string name="authorBtn">Author</string>
 </resources>

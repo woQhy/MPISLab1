@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         Button dislikeBtn = findViewById(R.id.dislikeBtn);
         Button downloadBtn = findViewById(R.id.downloadBtn);
         Button showInWeb = findViewById(R.id.showInWeb);
+        Button authorBtn = findViewById(R.id.authorBtn);
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://api.unsplash.com/")
@@ -68,16 +69,6 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         ImageApi imageApi = retrofit.create(ImageApi.class);
-
-        searchBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String query = searchEditText.getText().toString();
-                if (!query.isEmpty()) {
-                    searchImages(imageApi, query);
-                }
-            }
-        });
 
         searchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -127,6 +118,13 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     showAlertDialog("Error", "No image to download");
                 }
+            }
+        });
+
+        authorBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showAlertDialog("Автор", "Разработал Горкавчук Никита Михайлович");
             }
         });
 
