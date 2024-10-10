@@ -37,31 +37,21 @@
         android:id="@+id/image"
         android:layout_width="328dp"
         android:layout_height="225dp"
-        android:layout_marginTop="148dp"
-        android:contentDescription="@string/image"
+        android:layout_marginTop="264dp"
         android:background="@color/gray"
+        android:contentDescription="@string/image"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <Button
-        android:id="@+id/dislikeBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="40dp"
-        android:text="@string/dislikeBtn"
-        app:icon="@drawable/heart_crack_solid"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image" />
-
-    <Button
         android:id="@+id/likeBtn"
         android:layout_width="116dp"
         android:layout_height="48dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
         android:text="@string/likeBtn"
         app:icon="@drawable/heart_solid"
         app:iconPadding="8dp"
@@ -69,10 +59,21 @@
         app:layout_constraintTop_toBottomOf="@+id/image" />
 
     <Button
+        android:id="@+id/dislikeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/dislikeBtn"
+        app:icon="@drawable/heart_crack_solid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <Button
         android:id="@+id/showInWeb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="468dp"
         android:text="@string/showInWeb"
         app:icon="@drawable/globe_solid"
         app:layout_constraintBottom_toTopOf="@+id/downloadBtn"
@@ -84,7 +85,7 @@
         android:id="@+id/downloadBtn"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="28dp"
         android:text="@string/downloadBtn"
         app:icon="@drawable/download_solid"
         app:layout_constraintBottom_toTopOf="@+id/authorBtn"
@@ -96,18 +97,18 @@
         android:id="@+id/authorBtn"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="20dp"
         android:text="@string/authorBtn"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.927"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="4dp"
         android:rotation="0"
         android:text="@string/author"
         app:layout_constraintBottom_toBottomOf="parent"

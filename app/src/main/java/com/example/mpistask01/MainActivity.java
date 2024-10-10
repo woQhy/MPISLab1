@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
         authorBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showAlertDialog("Автор", "Разработал Горкавчук Никита Михайлович");
+                showAlertDialog("Автор", "Разработал Никифоров Александр Иванович");
             }
         });
 

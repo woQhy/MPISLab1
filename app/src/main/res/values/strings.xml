@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Horkavchuk Nik AS-64</string>
+    <string name="app_name">Nikiforov Ale AS-63</string>
     <string name="likeBtn">Like</string>
     <string name="dislikeBtn">Dislike</string>
     <string name="image">Image</string>
@@ -7,6 +7,6 @@
     <string name="showInWeb">Open in browser</string>
     <string name="search_image">Search Image</string>
     <string name="search">Search!</string>
-    <string name="author">Горкавчук Никита Михайлович</string>
+    <string name="author">Никифоров Александр Иванович</string>
     <string name="authorBtn">Author</string>
 </resources>
